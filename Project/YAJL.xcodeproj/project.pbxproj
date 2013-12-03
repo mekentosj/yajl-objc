@@ -780,6 +780,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_CURRENT_VERSION = "${YAJL_VERSION}";
 				GCC_ENABLE_OBJC_GC = unsupported;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 			};
 			name = Debug;
 		};
@@ -792,6 +793,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_CURRENT_VERSION = "$(YAJL_VERSION)";
 				GCC_ENABLE_OBJC_GC = unsupported;
+				INSTALL_PATH = "@executable_path/../Frameworks";
 			};
 			name = Release;
 		};
